@@ -1,0 +1,3 @@
+com\zw\cloud\controller\RibbonController.class
+com\zw\cloud\service\RibbonService.class
+com\zw\cloud\CloudRibbonApplication.class
