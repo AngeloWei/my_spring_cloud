@@ -9,9 +9,9 @@ spring:
       server:
         git:
           #git地址
-          uri: https://gitee.com/angelo_zou/springCloud
+          uri: https://github.com/AngeloWei/my_spring_cloud
           #仓库路径
-          search-paths: /config
+          search-paths: /cloud-config
           #git用户名
           username:
           #密码
