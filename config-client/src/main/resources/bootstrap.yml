@@ -4,6 +4,8 @@ spring:
       label: master
       uri: http://localhost:9200/
       profile: dev
+  application:
+    name: config-client
 #
 #eureka:
 #  client:
