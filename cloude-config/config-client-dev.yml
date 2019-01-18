@@ -18,3 +18,5 @@ spring:
           password:
       #分支
       label: master
+test:
+  aaa: 1231231
