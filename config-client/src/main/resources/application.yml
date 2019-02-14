@@ -1,22 +1,22 @@
 server:
-  port: 9202
+  port: 9201
 #添加rabbitmq配置
-spring:
-  rabbitmq:
-    host: 192.168.199.231
-    port: 5672
-    username: guest
-    password: guest
-  cloud:
-    bus:
-      enabled: true
-      trace:
-        enabled: true
-management:
-  endpoints:
-    web:
-      exposure:
-        exclude: bus-refresh
+#spring:
+#  rabbitmq:
+#    host: 192.168.199.231
+#    port: 5672
+#    username: guest
+#    password: guest
+#  cloud:
+#    bus:
+#      enabled: true
+#      trace:
+#        enabled: true
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        exclude: bus-refresh
 #eureka:
 #  client:
 #    service-url:
