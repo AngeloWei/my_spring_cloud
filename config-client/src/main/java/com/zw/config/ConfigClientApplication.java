@@ -14,7 +14,7 @@ public class ConfigClientApplication {
         SpringApplication.run(ConfigClientApplication.class, args);
     }
 
-    @Value("${test.aaa}")
+    @Value("${foo}")
     private String name;
     @GetMapping("/hi")
     public String test() {
