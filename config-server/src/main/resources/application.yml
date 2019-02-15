@@ -7,11 +7,11 @@ spring:
       server:
         git:
           #git地址
-          uri: https://github.com/AngeloWei/my_spring_cloud
+          uri: https://gitee.com/angelo_zou/springCloud
           #git用户名
           username:
           #密码
           password:
-          search-paths: /cloud-config
+          search-paths: config
       #分支
       label: master
