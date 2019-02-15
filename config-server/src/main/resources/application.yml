@@ -9,9 +9,7 @@ spring:
       server:
         git:
           #git地址
-          uri: https://github.com/forezp/SpringcloudConfig/
-          #仓库路径
-          search-paths: espo
+          uri: https://github.com/AngeloWei/my_spring_cloud/
           #git用户名
           username:
           #密码
