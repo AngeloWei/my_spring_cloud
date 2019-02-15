@@ -15,3 +15,5 @@ spring:
           search-paths: config
       #分支
       label: master
+  application:
+    name: config-server
