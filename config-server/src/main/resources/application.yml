@@ -2,17 +2,16 @@ server:
   port: 9200
 
 spring:
-  application:
-    name: config-server
   cloud:
     config:
       server:
         git:
           #git地址
-          uri: https://github.com/AngeloWei/my_spring_cloud/
+          uri: https://github.com/AngeloWei/my_spring_cloud
           #git用户名
           username:
           #密码
           password:
+          search-paths: /cloud-config
       #分支
       label: master
