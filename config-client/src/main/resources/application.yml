@@ -1,5 +1,5 @@
 server:
-  port: 9201
+  port: 9202
 #添加rabbitmq配置
 spring:
   rabbitmq:
@@ -16,7 +16,7 @@ management:
   endpoints:
     web:
       exposure:
-        exclude: bus-refresh
+        include: bus-refresh
 #eureka:
 #  client:
 #    service-url:
