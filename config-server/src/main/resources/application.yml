@@ -17,6 +17,7 @@ spring:
       label: master
   application:
     name: config-server
+#配置注册中心地址
 eureka:
   client:
     service-url:
