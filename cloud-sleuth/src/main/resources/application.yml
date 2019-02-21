@@ -3,5 +3,7 @@ server:
 
 spring:
   application:
-    name: sleuth-client
+    name: sleuth-client${server.port}
+  zipkin:
+    base-url: http://192.168.199.231:9411
 
