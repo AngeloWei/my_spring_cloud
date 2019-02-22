@@ -3,9 +3,11 @@ server:
 eureka:
   instance:
     hostname: localhost
+  #单机节点，false：关闭该服务作为client注册
   client:
     register-with-eureka: false
     fetch-registry: false
+    #注册地址
     service-url:
         defaultZone: http://${eureka.instance.hostname}:9000/eureka
 spring:
